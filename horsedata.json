@@ -1,0 +1,144 @@
+[
+    {
+        "type": "Draft Horses",
+        "photo": "horseImages/draft.jpg",
+        "info": "Also called either a carthorse, heavy horse, or work horse. They were bred to carry and pull heavy loads. They are tall, strong and heavy. The average draft weighs over 1600 lbs and can pull over twice their weight for short distances. They are known for their calm even temperament and level headed attitude. The term used to describe this quality is 'cold blood'.",
+        "link": "draft.html",
+
+            "breed 1": {
+                "name": "Shire",
+                "photo": "images/"
+            },
+
+            "breed 2": {
+                "name": "Clydesdale",
+                "photo": "images/"
+            },
+
+            "breed 3": {
+                "name": "Percheron",
+                "photo": "images/"
+            },
+
+            "breed 4": {
+                "name": "Belgian Draft",
+                "photo": "images/"
+            }
+    },
+
+
+
+    {
+        "type": "Warmbloods",
+        "photo": "horseImages/warmbloods.jpeg",
+        "info": "A middle weight horse created by the cross of a cold blood draft horse and a hot blood light horse. These horses are tall, strong, and athletic with a sensible attitude and plenty of get-up-an-go. They dominate the dressage, jumping, harness and equestrian Olympic sports.",
+        
+            "breed 1": {
+                "name": "Hanoverian",
+                "photo": "images/"
+            },
+
+            "breed 2": {
+                "name": "Trakehner",
+                "photo": "images/"
+            },
+
+            "breed 3": {
+                "name": "Dutch Warmblood",
+                "photo": "images/"
+            },
+
+            "breed 4": {
+                "name": "Belgian Warmblood",
+                "photo": "images/"
+            },
+
+            "breed 5": {
+                "name": "Selle Français",
+                "photo": "images/"
+            }
+    },
+
+
+    {
+        "type": "Light Horses",
+        "photo": "horseImages/light.jpg",
+        "info": "Bred for speed, agility, endurance and of course riding. Light horses are used for nearly every form of riding from pleasure riding to racing and ranch work. A variety of horse breeds fall into the light horse type category. They can vary greatly in height, weight, build and color. They all have one thing in common. They were bred to be used under saddle. Some light horses are also considered to be a ‘hot blood’ as well. Unlike a cold blood, the term hot blood describes a horse that is high energy, easily excitable and fleet footed.",
+        
+            "breed 1": {
+                "name": "Morgan",
+                "photo": "images/"
+            },
+
+            "breed 2": {
+                "name": "American Paint Horse",
+                "photo": "images/"
+            },
+
+            "breed 3": {
+                "name": "Palomino",
+                "photo": "images/"
+            },
+
+            "breed 4": {
+                "name": "Arabian",
+                "photo": "images/"
+            },
+
+            "breed 5": {
+                "name": "Thoroughbred",
+                "photo": "images/"
+            }
+    },
+    
+
+
+    {
+        "type": "Ponies",
+        "photo": "horseImages/ponies.jpg",
+        "info": "A horse that measures less than 14.2 hands. There are over a hundred breeds of ponies. Ponies are incredibly versatile little horses. They are used for pulling, packing, harness, riding, jumping, plowing and even ranch work. Ponies are prized for their intelligence, strength and hardiness in rugged conditions.",
+        
+            "breed 1": {
+                "name": "Shetland Pony",
+                "photo": "images/"
+            },
+
+            "breed 2": {
+                "name": "Icelandic Pony",
+                "photo": "images/"
+            },
+
+            "breed 3": {
+                "name": "Welsh Pony",
+                "photo": "images/"
+            },
+
+            "breed 4": {
+                "name": "Quarter Pony",
+                "photo": "images/"
+            }
+    },
+
+
+
+    {
+        "type": "Non-horse Equines",
+        "photo": "horseImages/nonhorse.jpg",
+        "info": "Closely related to horses and can interbreed with horses, but are not horses themselves.",
+        
+            "breed 1": {
+                "name": "Donkey",
+                "photo": "images/"
+            },
+
+            "breed 2": {
+                "name": "Zebra",
+                "photo": "images/"
+            },
+
+            "breed 3": {
+                "name": "Mule",
+                "photo": "images/"
+            }
+    }
+]
