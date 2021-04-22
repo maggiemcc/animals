@@ -37,7 +37,7 @@ fetch(apiURL)
     // let address = document.createElement("p");
     // address.innerHTML = myList[i].address;
 
-    let myAddressTag = document.createElement("span");
+    let myAddressTag = document.createElement("div");
     myAddressTag.className = "addressInfo";
     // let addressIcon = document.createElement("i");
     // addressIcon.innerHTML = `<ion-icon name="car"></ion-icon>`;
@@ -50,7 +50,7 @@ fetch(apiURL)
 
     
 
-    let myPhoneTag = document.createElement("span");
+    let myPhoneTag = document.createElement("div");
     myPhoneTag.className = "phoneInfo";
     // let phoneIcon = document.createElement("i");
     // phoneIcon.innerHTML = `<ion-icon name="call"></ion-icon>`;
@@ -98,3 +98,5 @@ fetch(apiURL)
     
     
 }); //end of "then" fat arrow function
+
+

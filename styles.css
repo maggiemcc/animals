@@ -154,17 +154,26 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+
+
 body {
   font-size: 16px;
   font-family: "Grenze", serif;
 }
+
+
+/* HEADER */
 header {
   padding: 1.5rem 2%;
   background-color: #008686;
 }
 header a {
   text-decoration: none;
+  text-transform: uppercase;
 }
+
 header h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -172,97 +181,20 @@ header h1 {
   color: #fff;
   text-shadow: 2px 2px 5px #000;
 }
-main {
-  padding: 0 2%;
-  min-height: 10rem;
-}
-main h1 {
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-hr {
-  border: 2px solid #008686;
-  margin: 1rem 0;
-}
-#myCards {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-column-gap: 2%;
-  grid-row-gap: 2%;
-  padding: 0;
-  margin: 0;
-}
-#myCards .hotelCard {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-#myCards .hotelCard .imageInfo {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  position: relative;
-  background-color: #000;
-}
-#myCards .hotelCard .imageInfo img {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-#myCards .hotelCard .imageInfo figcaption {
-  position: absolute;
-  bottom: 0;
-  background-color: #008686;
-  background-color: rgba(0, 0, 0, 0.7);
-  font-weight: 400;
-  color: #fff;
-  width: 100%;
-  padding: 0.35rem 2vw;
-  font-size: 1.5rem;
-}
-#myCards .hotelCard .hotelInfo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-column-gap: 2%;
-  background-color: #fff;
-  padding: 0.5rem 2vw;
-  font-weight: 300;
-  /* border: 2px solid #000;
-  border-radius: 0px 0px 3px 3px; */
-}
-#myCards .hotelCard .hotelInfo span i {
-  float: left;
-  font-size: 1rem;
-  color: #008686;
-}
-#myCards .hotelCard .hotelInfo span p {
-  padding: 0;
-  margin: 0;
-  padding-left: 1.45rem;
-  font-size: 1rem;
-  font-weight: 300;
-}
-/* #myCards .hotelCard .hotelInfo span i:hover,
-#myCards .hotelCard .hotelInfo span p:hover {
-  font-weight: 400;
-  cursor: pointer;
-} */
-.spacer {
-  width: 100%;
-  margin: 5rem 0;
-}
+
+
+/* NAV */
 nav {
   background-color: #008686;
   margin: 0;
   padding: 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
   width: 100%;
-  z-index: 999;
+  border-top: 2px solid white;
+  /* z-index: 999; */
 }
 nav ul {
   display: flex;
@@ -311,9 +243,133 @@ nav ul li a:hover {
   clear: both;
 }
 
-@media only screen and (max-width: 480px) {
 
+
+/* MAIN */
+
+main {
+  padding: 0 2%;
+  min-height: 10rem;
+  margin-bottom: 10rem;
 }
+
+main h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+hr {
+  border: 2px solid #008686;
+  margin: 1rem 0;
+}
+
+
+
+/* CARDS */
+#myCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  padding: 0;
+  margin: 0;
+}
+#myCards .hotelCard {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#myCards .imageInfo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+}
+#myCards .imageInfo img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#myCards .imageInfo figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: #008686;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  padding: 0.35rem 2vw;
+  font-size: 1.5rem;
+}
+/* #myCards .hotelInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2%;
+  background-color: #fff;
+  padding: 0.5rem 2vw;
+  font-weight: 300;
+
+} */
+
+
+.hotelInfo {
+  float: left;
+  width: 100%;
+  padding: 3%;
+  overflow: hidden;
+  background-color: #fff;
+  font-weight: 300;
+}
+
+
+
+
+#myCards .hotelInfo div i {
+  float: left;
+  font-size: 1rem;
+  color: #008686;
+}
+#myCards .hotelInfo div p {
+  padding: 0;
+  margin: 0;
+  /* padding-left: 1.45rem; */
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* #myCards .hotelCard .hotelInfo span i:hover,
+#myCards .hotelCard .hotelInfo span p:hover {
+  font-weight: 400;
+  cursor: pointer;
+} */
+
+
+
+.spacer {
+  width: 100%;
+  margin: 5rem 0;
+}
+
+
+@media only screen and (max-width: 480px) {
+  main {padding: 0 4%; margin-bottom: 16rem;}
+
+  .hotelInfo {display: block; padding: 5%;}
+  
+  .hotelInfo > .addressInfo {
+  height: 80%;
+  }
+  
+  .hotelInfo > .phoneInfo {
+  height: 20%;
+  padding-top: 10%;
+  /* background-color: green; */
+  }
+}
+
+
+
 
 @media only screen and (min-width: 481px) {
   nav ul li {
@@ -322,21 +378,50 @@ nav ul li a:hover {
   nav ul li a {
     padding: 0.5rem 1rem;
   }
+
   #myCards {
     grid-template-columns: 1fr 1fr;
   }
+
   .spacer {
     width: 100%;
     padding: 3.5rem 0;
   }
+
+
+
+  main {padding: 0 4%; margin-bottom: 16rem;}
+
+  .hotelInfo {display: block; padding: 5%;}
+  
+  .hotelInfo > .addressInfo {
+  height: 240px;
+  }
+  
+  .hotelInfo > .phoneInfo {
+  padding-top: 10%;
+  /* background-color: pink; */
+  }
+
 }
 
 @media only screen and (min-width: 769px) {
+  .hotelInfo {padding: 3%;}
 
+  .hotelInfo > .addressInfo {
+    height: 180px;
+    }
+    
+    .hotelInfo > .phoneInfo {
+    padding-top: 10%;
+    /* background-color: yellow; */
+    }
 }
 
+
+
 /* @media only screen and (max-width: 1024px) { */
-  @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   header,
   nav,
   main,
@@ -346,8 +431,29 @@ nav ul li a:hover {
     max-width: 1280px;
     margin: auto;
   }
-}
 
+  main {margin-bottom: 10rem;}
+
+  #myCards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+  main {padding: 0 4%; margin-bottom: 16rem;}
+
+  .hotelInfo {display: block; padding: 5%;}
+  
+  .hotelInfo > .addressInfo {
+    height: 120px;
+    }
+    
+    .hotelInfo > .phoneInfo {
+    padding-top: 10%;
+    /* background-color: green; */
+    }
+  
+}
 
 /* 
 @media only screen and (min-width: 35rem) {
@@ -366,7 +472,6 @@ nav ul li a:hover {
   }
 } */
 
-
 /* @media only screen and (min-width: 64rem) {
   header,
   nav,
@@ -378,14 +483,15 @@ nav ul li a:hover {
   }
 } */
 
-
-
 .hotelCard {
   border: 2px solid black;
   border-radius: 33px;
+  max-width: 500px;
+  margin: auto;
 }
 
-.hotelCard figure, .hotelCard img {
+.hotelCard figure,
+.hotelCard img {
   border: none;
   border-radius: 31px 31px 0px 0px;
   -moz-border-radius: 31px;
@@ -398,10 +504,10 @@ nav ul li a:hover {
   grid-template-rows: 1fr 100px;
 }
 
-
-
-
-.phoneInfo {text-align: center; margin: 5% 0;} 
+.phoneInfo {
+  text-align: center;
+  /* margin: 5% 0; */
+}
 .phoneInfo a {
   text-decoration: none;
   font-size: 1.2rem;
@@ -413,9 +519,9 @@ nav ul li a:hover {
   text-transform: uppercase;
   letter-spacing: 10px;
 
-  display: inline-block;     
+  display: inline-block;
 
-  padding: 20px; 
+  padding: 20px;
   width: 100%;
   text-align: center;
 }
@@ -425,6 +531,35 @@ nav ul li a:hover {
   color: white;
 }
 
-.back {margin-top: 2rem; margin-bottom: 4rem;}
+.hotelInfo {
+  grid-template-rows: auto auto;
+  height: auto;
+}
 
-.back a {color: black; text-decoration: none; font-size: 2rem;}
+.back {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.back a {
+  color: black;
+  text-decoration: none;
+  font-size: 5rem;
+}
+
+/* main {width: 100%;} */
+
+footer {
+  background-color: black;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
