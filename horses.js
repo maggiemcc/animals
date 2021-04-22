@@ -70,7 +70,7 @@ fetch(apiURL)
       var linkText = document.createTextNode("my title text");
       a.appendChild(linkText);
       a.title = "my title text";
-      a.href = "https://sad-euler-5b53da.netlify.app/" + `${myList[i].link}`;
+      a.href = "https://sad-euler-5b53da.netlify.app/" + myList[i].link;
       document.body.appendChild(a);
 
 
