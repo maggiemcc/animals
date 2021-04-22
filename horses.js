@@ -44,34 +44,8 @@ fetch(apiURL)
     let address = document.createElement("p");
     address.innerHTML = myList[i].info;
 
-      
-
-//   // 1. Create the button
-// var button = document.createElement("button");
-// button.innerHTML = myList[i].link;
-
-// // 2. Append somewhere
-// var body = document.getElementsByTagName("body")[0];
-// body.appendChild(button);
-
-// 3. Add event handler
-// button.addEventListener ("click", function() {
-// //   location.href = ['myList[i].link'];
-// //   location.href = "myList[i].link";
-// //     location.href = myList[i].link;
-// //   location.href = myList[i].link;
-// //   var link = `$("<a />").attr("href", mylist[i].link.toLowerCase() + ".html");
-// //     $(this).append(link)`;
-
-// });
 
       
-//       var a = document.createElement('a');
-//       var linkText = document.createTextNode("my title text");
-//       a.appendChild(linkText);
-//       a.title = "my title text";
-//       a.href = "https://sad-euler-5b53da.netlify.app/" + myList[i].link;
-//       document.body.appendChild(a);
       
 var a = document.createElement('a');
 var linkText = document.createTextNode("my title text");
