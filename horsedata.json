@@ -3,7 +3,7 @@
         "type": "Draft Horses",
         "photo": "horseImages/draft.jpg",
         "info": "Also called either a carthorse, heavy horse, or work horse. They were bred to carry and pull heavy loads. They are tall, strong and heavy. The average draft weighs over 1600 lbs and can pull over twice their weight for short distances. They are known for their calm even temperament and level headed attitude. The term used to describe this quality is 'cold blood'.",
-        "link": "draft.html",
+        "link": "https://sad-euler-5b53da.netlify.app/draft.html",
 
             "breed 1": {
                 "name": "Shire",
