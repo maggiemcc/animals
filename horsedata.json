@@ -3,7 +3,7 @@
         "type": "Draft Horses",
         "photo": "horseImages/draft.jpg",
         "info": "Also called either a carthorse, heavy horse, or work horse. They were bred to carry and pull heavy loads. They are tall, strong and heavy. The average draft weighs over 1600 lbs and can pull over twice their weight for short distances. They are known for their calm even temperament and level headed attitude. The term used to describe this quality is 'cold blood'.",
-        "link": "draft.html",
+        "link": "draft",
 
             "breed 1": {
                 "name": "Shire",
@@ -32,7 +32,7 @@
         "type": "Warmbloods",
         "photo": "horseImages/warmbloods.jpeg",
         "info": "A middle weight horse created by the cross of a cold blood draft horse and a hot blood light horse. These horses are tall, strong, and athletic with a sensible attitude and plenty of get-up-an-go. They dominate the dressage, jumping, harness and equestrian Olympic sports.",
-        "link": "warmblood.html",
+        "link": "warmblood",
         
             "breed 1": {
                 "name": "Hanoverian",
@@ -65,7 +65,7 @@
         "type": "Light Horses",
         "photo": "horseImages/light.jpg",
         "info": "Bred for speed, agility, endurance and of course riding. Light horses are used for nearly every form of riding from pleasure riding to racing and ranch work. A variety of horse breeds fall into the light horse type category. They can vary greatly in height, weight, build and color. They all have one thing in common. They were bred to be used under saddle. Some light horses are also considered to be a ‘hot blood’ as well. Unlike a cold blood, the term hot blood describes a horse that is high energy, easily excitable and fleet footed.",
-        "link": "light.html",
+        "link": "light",
         
             "breed 1": {
                 "name": "Morgan",
@@ -99,7 +99,7 @@
         "type": "Ponies",
         "photo": "horseImages/ponies.jpg",
         "info": "A horse that measures less than 14.2 hands. There are over a hundred breeds of ponies. Ponies are incredibly versatile little horses. They are used for pulling, packing, harness, riding, jumping, plowing and even ranch work. Ponies are prized for their intelligence, strength and hardiness in rugged conditions.",
-        "link": "ponies.html",
+        "link": "ponies",
         
             "breed 1": {
                 "name": "Shetland Pony",
@@ -128,7 +128,7 @@
         "type": "Non-horse Equines",
         "photo": "horseImages/nonhorse.jpg",
         "info": "Closely related to horses and can interbreed with horses, but are not horses themselves.",
-        "link": "nonhorses.html",
+        "link": "nonhorses",
         
             "breed 1": {
                 "name": "Donkey",

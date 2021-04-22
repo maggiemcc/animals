@@ -46,13 +46,6 @@ fetch(apiURL)
 
 
       
-      
-var a = document.createElement('a');
-var linkText = document.createTextNode("my title text");
-a.appendChild(linkText);
-a.title = "my title text";
-a.href = ("https://animals-nature.netlify.app/" + `${myList[i].link}`);
-document.body.appendChild(a);
 
 
     
@@ -61,9 +54,21 @@ document.body.appendChild(a);
     myPhoneTag.className = "phoneInfo";
     // let phoneIcon = document.createElement("i");
     // phoneIcon.innerHTML = `<ion-icon name="call"></ion-icon>`;
-    let phone = document.createElement("p");
+    // let phone = document.createElement("p");
     // phone.innerHTML = myList[i].link;
   
+
+
+
+
+    var phone = document.createElement('a');
+    var linkText = document.createTextNode("View Types");
+    phone.appendChild(linkText);
+    phone.title = `${myList[i].link}`;
+    phone.href = ("https://animals-nature.netlify.app/" + `${myList[i].link}` + ".html");
+    // document.body.appendChild(a);
+    
+
 
   
 
