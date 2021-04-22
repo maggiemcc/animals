@@ -66,12 +66,19 @@ fetch(apiURL)
 // });
 
       
-      var a = document.createElement('a');
-      var linkText = document.createTextNode("my title text");
-      a.appendChild(linkText);
-      a.title = "my title text";
-      a.href = "https://sad-euler-5b53da.netlify.app/" + myList[i].link;
-      document.body.appendChild(a);
+//       var a = document.createElement('a');
+//       var linkText = document.createTextNode("my title text");
+//       a.appendChild(linkText);
+//       a.title = "my title text";
+//       a.href = "https://sad-euler-5b53da.netlify.app/" + myList[i].link;
+//       document.body.appendChild(a);
+      
+var a = document.createElement('a');
+var linkText = document.createTextNode("my title text");
+a.appendChild(linkText);
+a.title = "my title text";
+a.href = "https://sad-euler-5b53da.netlify.app/draft.html";
+document.body.appendChild(a);
 
 
     
