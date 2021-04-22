@@ -60,7 +60,8 @@ button.addEventListener ("click", function() {
 //   location.href = "myList[i].link";
 //     location.href = myList[i].link;
 //   location.href = myList[i].link;
-  location.href = location.origin+ "/" + `${myList[i].link}`;
+  var link = `$("<a />").attr("href", mylist[i].link.toLowerCase() + ".html");
+    $(this).append(link)`;
 
 });
 
