@@ -56,10 +56,8 @@ body.appendChild(button);
 
 // 3. Add event handler
 button.addEventListener ("click", function() {
-//   location.href = ['myList[i].link'];
+  location.href = ['myList[i].link'];
 // location.href = myList[i]['link'];
-//   location.href = `${myList[i].link}`;
-    location.href = `${myList[i].link.URL}`;
 
 
 });
